@@ -157,4 +157,7 @@ class Test extends Component {
 
 ![](nested-react-drag-reorder.gif)
 
+
+NOTE: this is fork of react-drag-reorder
+
 Contributors are welcome ! :smiley:

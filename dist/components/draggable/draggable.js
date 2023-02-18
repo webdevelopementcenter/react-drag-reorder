@@ -69,7 +69,7 @@ class DraggableComponent extends Component {
     let ele = [];
 
     for (let i = 0; i < this.state.divs.length; i++) {
-      ele.push( /*#__PURE__*/React.createElement(DraggableChildComponent, {
+      ele.push(React.createElement(DraggableChildComponent, {
         dragStart: () => this.dragStart(i),
         dragEnter: () => this.dragEnter(i),
         dragEnd: this.dragDrop,
@@ -77,7 +77,7 @@ class DraggableComponent extends Component {
       }, this.state.divs[i]));
     }
 
-    return /*#__PURE__*/React.createElement(React.Fragment, null, ele);
+    return React.createElement(React.Fragment, null, ele);
   }
 
 }

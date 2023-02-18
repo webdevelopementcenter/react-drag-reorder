@@ -8,7 +8,7 @@ class App extends React.Component {
     shows: ["GOT", "Friends", "Big Bang"],
   };
   
-  getChangedPos = (currentPos, newPos) => {
+  getChangedPos = (currentPos:number, newPos:number) => {
     console.log(currentPos, newPos);
   };
 
